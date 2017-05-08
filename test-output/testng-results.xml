@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matching:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Err Msg is Displayed:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Err Msg is Displayed:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Err Msg is Displayed:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Err Msg is Displayed:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Err Msg is Displayed:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Err Msg is Displayed:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Err Msg is Displayed:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Err Msg is Displayed:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Err Msg is Displayed:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Err Msg is Displayed:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Err Msg is Displayed:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Err Msg is Displayed:PASS]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="77181" started-at="2017-05-06T10:43:59Z" finished-at="2017-05-06T10:45:16Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="60619" started-at="2017-05-06T10:43:59Z" finished-at="2017-05-06T10:44:59Z">
+      <class name="script.ValidLoginLogout">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.ValidLoginLogout@35851384]" name="openApplication" is-config="true" duration-ms="9201" started-at="2017-05-06T16:13:59Z" finished-at="2017-05-06T16:14:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.43.251:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidLoginLogout()[pri:1, instance:script.ValidLoginLogout@35851384]" name="testValidLoginLogout" duration-ms="13053" started-at="2017-05-06T16:14:08Z" finished-at="2017-05-06T16:14:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching:PASS]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching:PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.ValidLoginLogout@35851384]" name="closeApplication" is-config="true" duration-ms="2325" started-at="2017-05-06T16:14:21Z" finished-at="2017-05-06T16:14:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.ValidLoginLogout -->
+      <class name="script.InvalidLogin">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.InvalidLogin@1888ff2c]" name="openApplication" is-config="true" duration-ms="5889" started-at="2017-05-06T16:14:24Z" finished-at="2017-05-06T16:14:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.43.251:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:script.InvalidLogin@1888ff2c]" name="testInvalidLogin" duration-ms="16648" started-at="2017-05-06T16:14:29Z" finished-at="2017-05-06T16:14:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Err Msg is Displayed:PASS]]>
+            </line>
+            <line>
+              <![CDATA[Err Msg is Displayed:PASS]]>
+            </line>
+            <line>
+              <![CDATA[Err Msg is Displayed:PASS]]>
+            </line>
+            <line>
+              <![CDATA[Err Msg is Displayed:PASS]]>
+            </line>
+            <line>
+              <![CDATA[Err Msg is Displayed:PASS]]>
+            </line>
+            <line>
+              <![CDATA[Err Msg is Displayed:PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.InvalidLogin@1888ff2c]" name="closeApplication" is-config="true" duration-ms="3114" started-at="2017-05-06T16:14:46Z" finished-at="2017-05-06T16:14:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.InvalidLogin -->
+      <class name="script.VerifyVersion">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.VerifyVersion@649d209a]" name="openApplication" is-config="true" duration-ms="8234" started-at="2017-05-06T16:14:49Z" finished-at="2017-05-06T16:14:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.43.251:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testVerifyVersion()[pri:3, instance:script.VerifyVersion@649d209a]" name="testVerifyVersion" duration-ms="204" started-at="2017-05-06T16:14:57Z" finished-at="2017-05-06T16:14:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyVersion -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.VerifyVersion@649d209a]" name="closeApplication" is-config="true" duration-ms="1882" started-at="2017-05-06T16:14:58Z" finished-at="2017-05-06T16:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.VerifyVersion -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="77181" started-at="2017-05-06T10:43:59Z" finished-at="2017-05-06T10:45:16Z">
+      <class name="script.ValidLoginLogout">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.ValidLoginLogout@3f0ee7cb]" name="openApplication" is-config="true" duration-ms="16965" started-at="2017-05-06T16:13:59Z" finished-at="2017-05-06T16:14:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.43.251:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidLoginLogout()[pri:1, instance:script.ValidLoginLogout@3f0ee7cb]" name="testValidLoginLogout" duration-ms="11122" started-at="2017-05-06T16:14:16Z" finished-at="2017-05-06T16:14:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching:PASS]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching:PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.ValidLoginLogout@3f0ee7cb]" name="closeApplication" is-config="true" duration-ms="2077" started-at="2017-05-06T16:14:27Z" finished-at="2017-05-06T16:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.ValidLoginLogout -->
+      <class name="script.InvalidLogin">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.InvalidLogin@c818063]" name="openApplication" is-config="true" duration-ms="15515" started-at="2017-05-06T16:14:29Z" finished-at="2017-05-06T16:14:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.43.251:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:script.InvalidLogin@c818063]" name="testInvalidLogin" duration-ms="13274" started-at="2017-05-06T16:14:45Z" finished-at="2017-05-06T16:14:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Err Msg is Displayed:PASS]]>
+            </line>
+            <line>
+              <![CDATA[Err Msg is Displayed:PASS]]>
+            </line>
+            <line>
+              <![CDATA[Err Msg is Displayed:PASS]]>
+            </line>
+            <line>
+              <![CDATA[Err Msg is Displayed:PASS]]>
+            </line>
+            <line>
+              <![CDATA[Err Msg is Displayed:PASS]]>
+            </line>
+            <line>
+              <![CDATA[Err Msg is Displayed:PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.InvalidLogin@c818063]" name="closeApplication" is-config="true" duration-ms="887" started-at="2017-05-06T16:14:58Z" finished-at="2017-05-06T16:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.InvalidLogin -->
+      <class name="script.VerifyVersion">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.VerifyVersion@75bd9247]" name="openApplication" is-config="true" duration-ms="14902" started-at="2017-05-06T16:14:59Z" finished-at="2017-05-06T16:15:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.43.251:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testVerifyVersion()[pri:3, instance:script.VerifyVersion@75bd9247]" name="testVerifyVersion" duration-ms="173" started-at="2017-05-06T16:15:14Z" finished-at="2017-05-06T16:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyVersion -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.VerifyVersion@75bd9247]" name="closeApplication" is-config="true" duration-ms="2196" started-at="2017-05-06T16:15:14Z" finished-at="2017-05-06T16:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.VerifyVersion -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

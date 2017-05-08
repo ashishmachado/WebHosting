@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="node" value="http://192.168.43.251:4444/wd/hub"/>
+  <parameter name="browser" value="firefox"/>
+  <test name="Test1">
+    <parameter name="node" value="http://192.168.43.251:4444/wd/hub"/>
+    <parameter name="browser" value="chrome"/>
+    <packages>
+      <package name="script"/>
+    </packages>
+    <classes>
+      <class name="script.InvalidLogin"/>
+      <class name="script.ValidLoginLogout"/>
+      <class name="script.VerifyVersion"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test2">
+    <parameter name="node" value="http://192.168.43.251:4444/wd/hub"/>
+    <parameter name="browser" value="firefox"/>
+    <packages>
+      <package name="script"/>
+    </packages>
+    <classes>
+      <class name="script.InvalidLogin"/>
+      <class name="script.ValidLoginLogout"/>
+      <class name="script.VerifyVersion"/>
+    </classes>
+  </test> <!-- Test2 -->
+</suite> <!-- Failed suite [Suite] -->
